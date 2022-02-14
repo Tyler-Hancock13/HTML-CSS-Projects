@@ -1,0 +1,10 @@
+p {
+    color:purple;
+    background-color: beige;
+    font-size: larger;
+    text-align: right;
+}
+
+.shadow {
+    text-shadow: 2px 2px #ff0000;
+}
