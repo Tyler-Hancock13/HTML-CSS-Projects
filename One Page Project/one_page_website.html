@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
 
     <!--Navigation-->
-    <div>
-        <div>
-            <nav>
+    <div class="nav-wrapper">
+        <div class="menu-container">
+            <nav class="menu">
                 <a href="#home">Home</a>
                 <a href="#gallery">Gallery</a>
                 <a href="#videos">Videos</a>
@@ -23,8 +24,8 @@
         <div id="home">
             <h1>Northern Real Estate</h1>
 
-            <div>
-                <p>At Northern Light Real Estate you can be at ease in knowing 
+            <div class="text-center">
+                <p>At Northern Real Estate you can be at ease in knowing 
                     you are dealing with experts in real estate. We will treat 
                     you as one of our own while trying to sell your house.
                 </p>
@@ -32,14 +33,13 @@
         </div>
     </section>
 
-
     <!--Gallery Section-->
     <section>
         <div id="gallery">
             <h1>Gallery</h1>
-            <span>Below you will find previous houses we have worked with</span>
+            <span>Below you will find previous houses we have worked with.</span>
 
-            <div>
+            <div class="images-container">
                 <div>
                     <img src="./images/house_1.jfif" alt="Large house">
                 </div>
@@ -67,17 +67,17 @@
 
     <section>
         <div id="contact">
-            <div>
+            <div class="contact-heading">
                 <h1>Contact Us</h1>
                 <h3><span>If you would like to contact us about selling your home please fill out the information below.</span></h3>
             </div>
 
-            <div>
+            <div class="contact-form">
                 <form action="" method="post">
-                    <input type="text" value="First Name">
-                    <input type="text" value="Last Name">
-                    <input type="email" value="Email Address">
-                    <input type="text" value="Message">
+                    <input type="text" value="" placeholder="First Name">
+                    <input type="text" value="" placeholder="Last Name">
+                    <input type="email" value="" placeholder="Email Address">
+                    <input id="message-box" type="text" value="" placeholder="Message">
 
                     <div>
                         <input type="submit" value="Submit">
@@ -87,7 +87,7 @@
         </div>
     </section>
 
-    <div>
+    <div id="footer">
         Northern Real Estate &copy; 2022 &nbsp; | &nbsp; <a href="#home">Back to Top</a>
     </div>
     
