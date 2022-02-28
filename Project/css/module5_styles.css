@@ -1,0 +1,83 @@
+.nav {
+    background-color: lightblue;
+    width: 10%;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: yellow;
+}
+
+.image {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    filter: blur(5px);
+    border: 1px solid #000;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.table {
+    border: 1px solid #000;
+}
+
+.table th, td {
+    padding: 5px 10px;
+}
+
+.table th {
+    background-color: aquamarine;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.container h5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.column { 
+    float: left;
+    height: 125px;
+    width: 75px;
+    background-color: lightblue;
+}
+
+.column h4 {
+    color: red;
+}
+
+p:hover {
+    font-size: 3em;
+    color: green;
+    letter-spacing: 5px;
+}
+
+video {
+    width:10%;
+    height: 10%;
+}
+
+.footer {
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 600px) {
+    .mobile {
+        color: blue;
+    }
+}
